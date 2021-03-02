@@ -1,0 +1,25 @@
+.header__box {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 10px 0 10px 20px;
+    background-color: #CE5A57;
+    margin-top: -20px;
+}
+
+.dropdown a {
+    color: aliceblue;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.header__box-title {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.header__burger-desc {
+    font-size: 9px;
+}

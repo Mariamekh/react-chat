@@ -1,0 +1,65 @@
+ .inputname__form {  
+   width: 50%;
+   margin: 0 auto;
+ } 
+
+ .ReactModal__Content {
+   height: 100%;
+   background-color: #78A5A3;
+ }
+
+ .login__wrapper {
+   height: 100%;
+   display: flex;
+   align-items: center;
+ }
+
+ .inputname__form label {
+   font-size: 18px;
+ }
+
+ input::placeholder {
+   color: aliceblue;
+ }
+
+ input {
+   width: 200px;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+ }
+
+ input[type=text] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 15px 0;
+   box-sizing: border-box;
+   border: 2px solid rgb(255, 51, 0);
+   background-color: #E1B16A;
+   color: aliceblue;
+   font-size: 14px;
+   border-radius: 4px;
+ }
+
+ input[type=text]:hover {
+   border: 2px solid rgb(21, 255, 0);
+ }
+
+ .button-1 { 
+   color: aliceblue;
+   background: transparent;
+   border: 2px solid rgb(255, 51, 0);
+   position: relative;
+   font-size: 14px;
+   letter-spacing: .3em;
+   margin-top: 5px;
+   font-family: 'Montserrat', sans-serif;
+   padding: 10px 29px 10px 34px;
+   transition: .2s ease-in-out;
+   cursor: pointer; 
+ }
+
+ .button-1:hover {
+   border: 2px solid rgb(21, 255, 0);
+   transition: ease-in cubic-bezier(0.39, 0.575, 0.565, 1);
+ }
